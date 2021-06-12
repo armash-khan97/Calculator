@@ -23,6 +23,14 @@ html{
     width: 380px ; 
    
 }
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
 .input {
     width: 80%;
     height: 60px;
