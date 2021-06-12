@@ -1,17 +1,18 @@
 html{
     font-size : 62.5%;
-    /* box-sizing : border-box; */
-    display: block;
-
+    box-sizing : border-box;
 }
 
-*,
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+/* *,
 *::before,
 *::after {
     margin: 0%;
     padding: 0%;
-    box-sizing: border-box;
-}
+    box-sizing: initial;
+} */
 .main {
     border-radius: 5px;
     position: absolute;
