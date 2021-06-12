@@ -1,21 +1,14 @@
-html{
+ html{
     font-size : 62.5%;
     box-sizing : border-box;
 }
 
-*, ::after, ::before {
-    box-sizing: border-box;
-    margin: 0%;
-}
-body{
-    display: block;
-}
 *,
 *::before,
 *::after {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: initial;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
 }
 .main {
     border-radius: 5px;
@@ -23,17 +16,9 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 380px ; 
-   
+    width: 380px;
+    
 }
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-
-
 .input {
     width: 80%;
     height: 60px;
