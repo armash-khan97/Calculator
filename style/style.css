@@ -9,7 +9,7 @@ html{
 }
 body{
     display: block; 
-    transform: translate(-40%, -30%);
+    /* transform: translate(-40%, -30%); */
 } 
 *,
 *::before,
