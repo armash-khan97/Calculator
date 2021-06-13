@@ -2,6 +2,7 @@
     font-size : 62.5%;
     box-sizing : border-box;
 }
+
 *,
 *::before,
 *::after {
@@ -12,8 +13,9 @@
 .main {
     border-radius: 5px;
     position: absolute;
-    top: 20%;
-    left: 30%;
+    top: 10%;
+    left: 10%;
+    /* transform: translate(-50%, -50%); */
     width: 380px;
     
 }
